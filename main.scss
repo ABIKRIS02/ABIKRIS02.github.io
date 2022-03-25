@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+//grade 9 html
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+    background-color: rgb(231, 220, 220);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+  
+.topnav {
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.2rem;
+    transition: 0.5s ease-in-out;
+}
+  
+.topnav a:hover {
+    background-color: rgb(224, 215, 215);
+    color: black;
+}
+  
+.topnav a.active {
+    font-weight: bold;
+    background-color: rgb(255, 208, 78);
+    color: rgb(36, 36, 36);
+}
+
+
+
+.fullcontent {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+}
+
+h2{
+    border-style: dashed;
+    background-color: #bbb1b1;
+    margin-right: 80vw;
+    text-align: center;
+}
+
+ i{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 5rem 5rem;
+}
+
+.contentheading {
+    font-size: 40px;
+    padding-left: 30px;
+    margin: 50px;
+}
+
+.generalcontent {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.generalcontent .contentp {
+    width: 40%;
+    display: inline-flex;
+    text-align: justify;
+    margin-bottom: 5vh;
+}
+
+.generalcontent .contentimg {
+    width: 51%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000;
+    text-overflow: ellipsis;
+}
+
+.generalcontent .fcc-btn {
+    background-color: #bd3434;
+    color: white;
+    padding: 0 2vw
+  }
+
+.generalcontent .contentp span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(184, 166, 139);
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    color:rgb(255, 255, 255)
+}
+
+//home page
+
+.homebody{
+  background-color: rgb(241, 237, 237,)
+}
+
+.heading{
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  border-style: solid;
+  margin: 20vh 10vh;
+  background-color:rgba(151, 142, 142, 0.3);
+  padding: 10%;
+  box-shadow: 5px 10px #888888;
+}
+
+.homebody .head{
+  font-size: 3rem;
+}
+
+//portfolios
+
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #da853fd7;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 2rem;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 3rem 1.4rem;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 30%;
+  height: 30%;
+  height: 45vh;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #c47652;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
